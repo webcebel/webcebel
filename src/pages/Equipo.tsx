@@ -1,11 +1,9 @@
-// src/pages/Equipo.tsx
-import React from 'react';
+import { FC } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import TeamCard from '../components/TeamCard';
 import '../styles/pages/equipo.css';
 
-const Equipo = () => {
+const Equipo: FC = () => {
   const equipoDirectivo = [
     {
       nombre: "Nombre Apellido",
@@ -13,7 +11,6 @@ const Equipo = () => {
       imagen: "/src/assets/images/team/presidente.jpg",
       descripcion: "Breve descripción del miembro del equipo."
     },
-    // Añadir más miembros según sea necesario
   ];
 
   return (
@@ -28,13 +25,12 @@ const Equipo = () => {
         <section className="team-grid">
           <div className="container">
             {equipoDirectivo.map((miembro, index) => (
-              <TeamCard
-                key={index}
-                nombre={miembro.nombre}
-                cargo={miembro.cargo}
-                imagen={miembro.imagen}
-                descripcion={miembro.descripcion}
-              />
+              <div key={index} className="team-card">
+                <img src={miembro.imagen} alt={miembro.nombre} />
+                <h3>{miembro.nombre}</h3>
+                <p className="cargo">{miembro.cargo}</p>
+                <p className="descripcion">{miembro.descripcion}</p>
+              </div>
             ))}
           </div>
         </section>

@@ -1,11 +1,7 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/header.css';
-import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <header className="header">
       <div className="navbar">
@@ -16,7 +12,7 @@ const Header = () => {
             className="logo"
           />
         </Link>
-        <nav className={`navLinks ${isMenuOpen ? 'open' : ''}`}>
+        <nav className="navLinks">
           <Link to="/quienes-somos" className="nav-item">
             ¿Quiénes somos?
           </Link>
