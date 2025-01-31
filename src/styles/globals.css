@@ -1,0 +1,73 @@
+:root {
+  /* Color palette */
+  --primary: #151D29;
+  --secondary: #484E59;
+  --accent1: #F2CB57;
+  --accent2: #BFA760;
+  --white: #FFFFFF;
+  --background: #F5F5F5;
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--secondary);
+  background-color: var(--background);
+  line-height: 1.6;
+}
+
+/* Ajuste para el header fijo */
+main {
+  padding-top: 60px; /* Altura del header */
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.button-primary {
+  background-color: var(--accent1);
+  color: var(--primary);
+}
+
+.button-primary:hover {
+  background-color: var(--accent2);
+  transform: translateY(-2px);
+}

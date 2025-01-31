@@ -1,0 +1,106 @@
+/* src/styles/pages/material-educativo.css */
+.material-educativo-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .materiales-content {
+    padding: 4rem 0;
+  }
+  
+  .categoria-section {
+    margin-bottom: 4rem;
+  }
+  
+  .categoria-section h2 {
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent1);
+  }
+  
+  .materiales-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .material-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .material-info h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+  
+  .material-type,
+  .material-duration {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: var(--accent1);
+    color: var(--primary);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .download-button {
+    display: inline-block;
+    background: var(--accent1);
+    color: var(--primary);
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background: var(--accent2);
+    transform: translateY(-2px);
+  }
+  
+  .solicitud-section {
+    text-align: center;
+    padding: 4rem 0;
+    background: var(--background);
+    border-radius: 8px;
+    margin-top: 4rem;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    background: var(--accent1);
+    color: var(--primary);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background: var(--accent2);
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .suscripcion-form {
+      flex-direction: column;
+    }
+    
+    .materiales-grid {
+      grid-template-columns: 1fr;
+    }
+  }

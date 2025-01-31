@@ -1,0 +1,152 @@
+.revista-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background-color: #151D29;
+  color: white;
+  padding: 6rem 0 4rem;
+  text-align: center;
+}
+
+.hero-section h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.revista-content {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.revista-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.revista-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.revista-card:hover {
+  transform: translateY(-5px);
+}
+
+.revista-cover {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.revista-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.revista-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(21, 29, 41, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.revista-card:hover .revista-overlay {
+  opacity: 1;
+}
+
+.read-button {
+  background: #F2CB57;
+  color: #151D29;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.read-button:hover {
+  transform: scale(1.05);
+}
+
+.revista-info {
+  padding: 1.5rem;
+}
+
+.revista-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.edicion {
+  color: #F2CB57;
+  font-weight: 500;
+}
+
+.fecha {
+  color: #666;
+}
+
+.revista-info h3 {
+  color: #151D29;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.revista-info p {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.read-more {
+  background: none;
+  border: none;
+  color: #F2CB57;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0;
+  transition: gap 0.3s ease;
+}
+
+.read-more:hover {
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .revista-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .revista-cover {
+    height: 300px;
+  }
+}

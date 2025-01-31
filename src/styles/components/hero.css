@@ -1,0 +1,82 @@
+.hero {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/src/assets/images/hero-bg.jpg') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -60px; /* Compensar el header fijo */
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 0 1rem;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.cta-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.cta-primary, .cta-secondary {
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.cta-primary {
+  background-color: #F2CB57;
+  color: #151D29;
+}
+
+.cta-primary:hover {
+  background-color: #BFA760;
+  transform: translateY(-2px);
+}
+
+.cta-secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.cta-secondary:hover {
+  background-color: white;
+  color: #151D29;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  .cta-container {
+    flex-direction: column;
+  }
+  
+  .cta-primary, .cta-secondary {
+    width: 100%;
+  }
+}
