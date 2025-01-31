@@ -1,16 +1,16 @@
-import '../styles/components/footer.css';
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import '../styles/components/footer.css';
 
 const Footer = () => (
   <footer className="main-footer">
     <div className="footer-container">
       <div className="footer-column">
         <img 
-          src="/src/assets/images/logo-cebel.png" 
+          src="/images/logos/logo-cebel.png" 
           alt="CEBEL Logo" 
           className="footer-logo"
         />
-        <p>© 2025 CEBEL Internacional<br/>Todos los derechos reservados</p>
+        <p>© 2023 CEBEL Internacional<br/>Todos los derechos reservados</p>
       </div>
 
       <div className="footer-column">

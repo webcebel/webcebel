@@ -9,25 +9,25 @@ const QuienesSomos: FC = () => {
       nombre: "Anna Traverso",
       cargo: "Presidenta",
       pais: "Chile - Estados Unidos",
-      imagen: "./src/assets/images/team/anna-traverso.png"
+      imagen: "/images/team/anna-traverso.png"
     },
     {
       nombre: "Lina De Giglio",
       cargo: "Vicepresidenta",
       pais: "Argentina - España",
-      imagen: "./src/assets/images/team/lina-degiglio.png"
+      imagen: "/images/team/lina-degiglio.png"
     },
     {
       nombre: "Eloy Casique",
       cargo: "Secretario General",
       pais: "Venezuela",
-      imagen: "./src/assets/images/team/eloy-casique.png"
+      imagen: "/images/team/eloy-casique.png"
     },
     {
       nombre: "Francisco Florian",
       cargo: "Secretario General",
-      pais: "Estados Unidos",
-      imagen: "./src/assets/images/team/francisco-florian.png"
+      pais: "México",
+      imagen: "/images/team/francisco-florian.png"
     }
   ];
 
@@ -35,80 +35,80 @@ const QuienesSomos: FC = () => {
     {
       nombre: "Anna Traverso",
       cargo: "Presidenta",
-      pais: "Estados Unidos",
-      imagen: "./src/assets/images/team/anna-traverso.png"
+      pais: "Chile - Estados Unidos",
+      imagen: "/images/team/anna-traverso.png"
     },
     {
       nombre: "Francisco Florian",
       cargo: "Secretario General",
-      pais: "Estados Unidos",
-      imagen: "./src/assets/images/team/francisco-florian.png"
+      pais: "México",
+      imagen: "/images/team/francisco-florian.png"
     },
     {
       nombre: "Eloy Casique",
       cargo: "Secretario General",
       pais: "Venezuela",
-      imagen: "./src/assets/images/team/eloy-casique.png"
+      imagen: "/images/team/eloy-casique.png"
     },
     {
       nombre: "Lina De Giglio",
       cargo: "Vicepresidenta",
-      pais: "Estados Unidos",
-      imagen: "./src/assets/images/team/lina-degiglio.png"
+      pais: "Argentina - España",
+      imagen: "/images/team/lina-degiglio.png"
     },
     {
       nombre: "Christian L.A. Ramos J.",
       cargo: "Cofundador",
-      pais: "Estados Unidos",
-      imagen: "./src/assets/images/team/christian-ramos.png"
+      pais: "Colombia",
+      imagen: "/images/team/christian-ramos.png"
     },
     {
       nombre: "Paulina Puelma Rojas",
       cargo: "Cofundador",
       pais: "Chile",
-      imagen: "./src/assets/images/team/paulina-puelma.png"
+      imagen: "/images/team/paulina-puelma.png"
     },
     {
       nombre: "Ramíro Murillo",
       cargo: "Cofundador",
-      pais: "Colombia",
-      imagen: "./src/assets/images/team/ramiro-murillo.png"
+      pais: "Panamá",
+      imagen: "/images/team/ramiro-murillo.png"
     },
     {
       nombre: "Sergio Molina",
       cargo: "Cofundador",
-      pais: "México",
-      imagen: "./src/assets/images/team/sergio-molina.png"
+      pais: "España - Perú",
+      imagen: "/images/team/sergio-molina.png"
     },
     {
       nombre: "Ale Camarena",
       cargo: "Cofundador",
-      pais: "México",
-      imagen: "./src/assets/images/team/ale-camarena.png"
+      pais: "Brasil - Perú",
+      imagen: "/images/team/ale-camarena.png"
     },
     {
       nombre: "Mauricio Cáceres",
       cargo: "Cofundador",
-      pais: "Colombia",
-      imagen: "./src/assets/images/team/mauricio-caceres.png"
+      pais: "Chile",
+      imagen: "/images/team/mauricio-caceres.png"
     },
     {
       nombre: "Elizabeth Ordoñez",
       cargo: "Cofundador",
-      pais: "Ecuador",
-      imagen: "./src/assets/images/team/elizabeth-ordonez.png"
+      pais: "Colombia",
+      imagen: "/images/team/elizabeth-ordonez.png"
     },
     {
       nombre: "Beatriz Crespo",
       cargo: "Cofundador",
       pais: "España",
-      imagen: "./src/assets/images/team/beatriz-crespo.png"
+      imagen: "/images/team/beatriz-crespo.png"
     },
     {
       nombre: "Dr. Eduardo Vásquez",
       cargo: "Cofundador",
-      pais: "Venezuela",
-      imagen: "./src/assets/images/team/eduardo-vasquez.png"
+      pais: "Chile",
+      imagen: "/images/team/eduardo-vasquez.png"
     }
   ];
 

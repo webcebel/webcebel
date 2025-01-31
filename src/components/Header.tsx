@@ -7,7 +7,7 @@ const Header = () => {
       <div className="navbar">
         <Link to="/">
           <img 
-            src="/src/assets/images/logo-cebel.png" 
+            src="/images/logos/logo-cebel.png" 
             alt="CEBEL Logo" 
             className="logo"
           />
