@@ -7,50 +7,49 @@ interface Subcomision {
   nombre: string;
   descripcion: string;
   objetivos: string[];
-  coordinador: string;
 }
 
 const SubcomisionesPage: FC = () => {
   const subcomisiones: Subcomision[] = [
     {
-      nombre: "Comité de Sensibilización",
-      descripcion: "Encargada de promover la conciencia sobre la importancia del bienestar laboral y su impacto en las organizaciones.",
+      nombre: "Comunicación",
+      descripcion: "Responsable de gestionar y coordinar todas las comunicaciones internas y externas de CEBEL, asegurando una transmisión efectiva de nuestro mensaje y valores.",
+      objetivos: [
+        "Gestionar las redes sociales y canales de comunicación",
+        "Desarrollar estrategias de comunicación efectiva",
+        "Crear y mantener la identidad visual de CEBEL",
+        "Coordinar la difusión de eventos y actividades"
+      ]
+    },
+    {
+      nombre: "Sensibilización",
+      descripcion: "Encargada de crear conciencia sobre la importancia del bienestar laboral y su impacto en las organizaciones y la sociedad.",
       objetivos: [
         "Desarrollar campañas de concientización",
-        "Crear contenido educativo",
-        "Organizar eventos de difusión"
-      ],
-      coordinador: "Nombre del Coordinador"
+        "Organizar eventos y talleres de sensibilización",
+        "Crear contenido educativo sobre bienestar laboral",
+        "Promover buenas prácticas en el entorno laboral"
+      ]
     },
     {
-      nombre: "Subcomisión de Investigación",
-      descripcion: "Dedicada a la investigación y análisis de tendencias en bienestar laboral a nivel global.",
+      nombre: "Certificación Internacional BIENESTAR CEBEL",
+      descripcion: "Dedicada al desarrollo y gestión del programa de certificación internacional en bienestar laboral, estableciendo estándares de calidad.",
       objetivos: [
-        "Realizar estudios de campo",
-        "Publicar informes periódicos",
-        "Establecer métricas y estándares"
-      ],
-      coordinador: "Nombre del Coordinador"
+        "Desarrollar estándares de certificación",
+        "Diseñar procesos de evaluación",
+        "Gestionar el programa de certificación",
+        "Mantener la calidad y prestigio de la certificación"
+      ]
     },
     {
-      nombre: "Subcomisión de Comunicación",
-      descripcion: "Responsable de la estrategia y ejecución de la comunicación interna y externa.",
+      nombre: "Formación",
+      descripcion: "Enfocada en el desarrollo de programas educativos y de capacitación en temas relacionados con el bienestar laboral.",
       objetivos: [
-        "Gestionar redes sociales",
-        "Producir boletines informativos",
-        "Coordinar comunicaciones oficiales"
-      ],
-      coordinador: "Nombre del Coordinador"
-    },
-    {
-      nombre: "Subcomisión de Onboarding",
-      descripcion: "Encargada de la integración y capacitación de nuevos miembros al equipo.",
-      objetivos: [
-        "Diseñar proceso de onboarding",
-        "Crear material de capacitación",
-        "Dar seguimiento a nuevos miembros"
-      ],
-      coordinador: "Nombre del Coordinador"
+        "Diseñar programas de formación especializados",
+        "Coordinar actividades educativas",
+        "Desarrollar materiales de aprendizaje",
+        "Evaluar y mejorar la calidad de la formación"
+      ]
     }
   ];
 
@@ -60,7 +59,7 @@ const SubcomisionesPage: FC = () => {
       <main className="main-content">
         <section className="hero-section">
           <h1>Subcomisiones</h1>
-          <p className="subtitle">Conoce nuestros equipos de trabajo especializados</p>
+          <p className="subtitle">Equipos especializados trabajando por el bienestar laboral</p>
         </section>
 
         <section className="subcomisiones-grid">
@@ -77,9 +76,6 @@ const SubcomisionesPage: FC = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="coordinador">
-                  <p>Coordinador: <span>{subcomision.coordinador}</span></p>
-                </div>
               </div>
             ))}
           </div>
@@ -88,8 +84,15 @@ const SubcomisionesPage: FC = () => {
         <section className="join-section">
           <div className="container">
             <h2>¿Te gustaría participar?</h2>
-            <p>Únete a uno de nuestros equipos y contribuye al bienestar laboral global.</p>
-            <a href="#" className="cta-button">Postular a una subcomisión</a>
+            <p>Únete a una de nuestras subcomisiones y contribuye al bienestar laboral global</p>
+            <a 
+              href="https://forms.google.com/tu-formulario" 
+              className="cta-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Postular a una subcomisión
+            </a>
           </div>
         </section>
       </main>
