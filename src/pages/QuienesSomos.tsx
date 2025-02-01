@@ -28,6 +28,12 @@ const QuienesSomos: FC = () => {
       cargo: "Secretario General",
       pais: "México",
       imagen: "/images/team/francisco-florian.png"
+    },
+    {
+      nombre: "Christian L.A. Ramos J.",
+      cargo: "Secretario General",
+      pais: "Colombia",
+      imagen: "/images/team/christian-ramos.png"
     }
   ];
 

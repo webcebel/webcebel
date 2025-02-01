@@ -1,5 +1,6 @@
 .header {
-  background-color: #151D29;
+  background: #151D29;
+  box-shadow: var(--shadow-md);
   position: fixed;
   width: 100%;
   top: 0;
@@ -11,10 +12,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
-  height: 100%;
+  padding: 0.5rem 5%;
   max-width: 1200px;
   margin: 0 auto;
+  height: 100%;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -24,15 +30,15 @@
 
 .navLinks {
   display: flex;
-  align-items: center;
   gap: 2rem;
+  align-items: center;
 }
 
 .nav-item {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease;
+  transition: color 0.3s;
 }
 
 .nav-item:hover {
@@ -40,34 +46,48 @@
 }
 
 .volunteer-button {
-  background-color: #F2CB57;
-  padding: 8px 16px;
+  background: #F2CB57;
+  color: #151D29;
+  padding: 0.5rem 1rem;
   border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
   transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .volunteer-button:hover {
-  background-color: #BFA760;
+  background: #BFA760;
   transform: translateY(-2px);
 }
 
-.volunteer-button a {
-  color: #151D29;
-  text-decoration: none;
-  font-weight: 500;
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
 }
 
 @media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
   .navLinks {
+    display: none;
     position: absolute;
     top: 60px;
     left: 0;
     right: 0;
-    background-color: #151D29;
+    background: #151D29;
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
-    display: none;
   }
 
   .navLinks.open {

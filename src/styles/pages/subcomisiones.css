@@ -1,0 +1,148 @@
+.subcomisiones-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    background-color: #151D29;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .subcomisiones-grid {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .subcomision-card {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .subcomision-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .subcomision-card h2 {
+    color: #151D29;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .descripcion {
+    color: #484E59;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .objetivos {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .objetivos h3 {
+    color: #151D29;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .objetivos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .objetivos li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    color: #484E59;
+  }
+  
+  .objetivos li:before {
+    content: "•";
+    color: #F2CB57;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .coordinador {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .coordinador p {
+    color: #484E59;
+  }
+  
+  .coordinador span {
+    color: #151D29;
+    font-weight: 500;
+  }
+  
+  .join-section {
+    background-color: #F2CB57;
+    padding: 4rem 0;
+    text-align: center;
+    color: #151D29;
+  }
+  
+  .join-section h2 {
+    color: #151D29;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #151D29;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+    
+    .subcomision-card {
+      padding: 1.5rem;
+    }
+    
+    .objetivos {
+      padding: 1rem;
+    }
+  }

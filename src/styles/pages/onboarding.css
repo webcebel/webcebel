@@ -1,0 +1,155 @@
+.onboarding-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-section {
+    background-color: #151D29;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .welcome-section {
+    background-color: white;
+    padding: 4rem 0;
+  }
+  
+  .welcome-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #484E59;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .step-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .step-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F2CB57;
+    margin-bottom: 1rem;
+  }
+  
+  .resources-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .resource-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-container {
+    background-color: #F2CB57;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .resource-icon {
+    font-size: 1.5rem;
+    color: #151D29;
+  }
+  
+  .resource-card h3 {
+    color: #151D29;
+    margin-bottom: 0.5rem;
+  }
+  
+  .resource-card p {
+    color: #484E59;
+    font-size: 0.9rem;
+  }
+  
+  .support-section {
+    background: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  h2 {
+    color: #151D29;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .resources-grid,
+    .steps-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .hero-section {
+      padding: 3rem 0;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  }
