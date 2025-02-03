@@ -128,7 +128,7 @@ const OnboardingPage: FC = () => {
               no dudes en contactar a nuestro equipo de soporte:
             </p>
             <div className="contact-info">
-              <p>Email: soporte@cebelglobal.org</p>
+              <p>Email: comiteinternacionalcebel@gmail.com</p>
             </div>
           </div>
         </section>

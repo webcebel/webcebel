@@ -20,17 +20,16 @@ const Footer = () => (
         <div className="footer-column">
           <h4>Contacto</h4>
           <ul>
-            <li><FaEnvelope /> contacto@cebelglobal.org</li>
+            <li><FaEnvelope /> comiteinternacionalcebel@gmail.com</li>
             <li>+1 (305) 123-4567</li>
-            <li>Av. Principal 123, Miami, FL</li>
+            <li>160 W Evergreen Ave., Suite 290, Longwood, FL 32750</li>
           </ul>
         </div>
 
         <div className="footer-column">
           <h4>Síguenos</h4>
           <div className="social-icons">
-            <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://www.linkedin.com/company/comision-internacional-de-expertos-en-bienestar-laboral-cebel/?viewAsMember=true" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           </div>
         </div>
       </div>

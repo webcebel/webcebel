@@ -37,11 +37,11 @@ const Header = () => {
           <Link to="/onboarding" className="nav-item">
             Onboarding
           </Link>
-          <Link to="/material-educativo" className="nav-item">
+          {/*<Link to="/material-educativo" className="nav-item">
             Material Educativo
-          </Link>
+          </Link>*/}
           <a 
-            href="https://forms.google.com/tu-formulario" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLScOapwQ8AhbfbJxWz6sHQs5poS9ByM2oZ_eTLjpwQ36oNsVzA/viewform?usp=sharing" 
             className="volunteer-button"
             target="_blank"
             rel="noopener noreferrer"

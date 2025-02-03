@@ -86,7 +86,7 @@ const SubcomisionesPage: FC = () => {
             <h2>¿Te gustaría participar?</h2>
             <p>Únete a una de nuestras subcomisiones y contribuye al bienestar laboral global</p>
             <a 
-              href="https://forms.google.com/tu-formulario" 
+              href="https://docs.google.com/forms/d/e/1FAIpQLScOapwQ8AhbfbJxWz6sHQs5poS9ByM2oZ_eTLjpwQ36oNsVzA/viewform?usp=sharing" 
               className="cta-button"
               target="_blank"
               rel="noopener noreferrer"

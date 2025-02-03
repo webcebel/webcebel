@@ -20,7 +20,7 @@ const RevistaPage: FC = () => {
       id: 1,
       titulo: "Construyendo las Bases del Bienestar Laboral",
       edicion: "Edición 1",
-      portada: "/pdfs/revista/1.jpg",
+      portada: "/pdfs/revista/cebel1.png",
       descripcion: "Una exploración fundamental de los pilares que sostienen el bienestar en el trabajo, desde los vínculos laborales hasta la diversidad e inclusión, presentando la visión y misión de CEBEL como nueva organización dedicada a transformar los entornos laborales.",
       pdfUrl: "/pdfs/revista1.pdf",
       fecha: "Noviembre 2023"
@@ -29,7 +29,7 @@ const RevistaPage: FC = () => {
       id: 2,
       titulo: "Innovación y Bienestar: Hacia una Nueva Cultura Organizacional",
       edicion: "Edición 2",
-      portada: "/pdfs/revista/2.jpg",
+      portada: "/pdfs/revista/cebel1.png",
       descripcion: "Una mirada profunda a cómo la innovación, el bienestar físico y el pensamiento disruptivo pueden transformar la cultura organizacional, incluyendo entrevistas exclusivas y perspectivas expertas sobre la construcción de ambientes laborales más saludables y productivos.",
       pdfUrl: "/pdfs/revista2.pdf",
       fecha: "Enero 2024"
