@@ -21,7 +21,6 @@ const Footer = () => (
           <h4>Contacto</h4>
           <ul>
             <li><FaEnvelope /> comiteinternacionalcebel@gmail.com</li>
-            <li>+1 (305) 123-4567</li>
             <li>160 W Evergreen Ave., Suite 290, Longwood, FL 32750</li>
           </ul>
         </div>
