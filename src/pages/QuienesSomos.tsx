@@ -12,12 +12,6 @@ const QuienesSomos: FC = () => {
       imagen: "/images/team/anna-traverso.png"
     },
     {
-      nombre: "Lina De Giglio",
-      cargo: "Vicepresidenta",
-      pais: "Argentina - España",
-      imagen: "/images/team/lina-degiglio.png"
-    },
-    {
       nombre: "Eloy Casique",
       cargo: "Secretario General",
       pais: "Venezuela",
@@ -55,12 +49,6 @@ const QuienesSomos: FC = () => {
       cargo: "Secretario General",
       pais: "Venezuela",
       imagen: "/images/team/eloy-casique.png"
-    },
-    {
-      nombre: "Lina De Giglio",
-      cargo: "Vicepresidenta",
-      pais: "Argentina - España",
-      imagen: "/images/team/lina-degiglio.png"
     },
     {
       nombre: "Christian L.A. Ramos J.",
